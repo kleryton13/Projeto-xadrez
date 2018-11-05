@@ -1,9 +1,14 @@
 package aplicacao;
 
+import jogoTabuleiro.Posicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Posicao posicao = new Posicao(2, 3);
+		
+		System.out.println(posicao);
 
 	}
 
